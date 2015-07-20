@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei", Georgia, Serif;
+}
+p, div{
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+p{
+	text-align: left;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+}
+ul{
+	list-style: none;
+}
+.container{
+	width: 100%;
+	height: 2000px;
+}
+/************** header start ******************/
+.header{
+	width: 100%;
+	background: #552B5E;
+	height: 5%;
+}
+.header h2{
+	color: #fff;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.header ul{
+	float: right;
+	margin-right: 170px;
+	margin-top: 57px;
+}
+.header li{
+	display: inline-block;
+	margin-left: 25px;
+}
+/************** header end ******************/
+/************** banner start ******************/
+.banner{
+	background: #ccc url(../images/banner-bg.jpg) no-repeat 100% 100%;
+	height: 37%;
+	width: 100%;
+	position: relative;
+}
+.banner div{
+    width: 33%;
+    height: 28%;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    right: 150px;
+    bottom: 100px;
+    padding: 10px 10px 10px 30px;
+}
+.banner div h1{
+	text-align: right;
+	color: #fff;
+	font-size: 18px;
+	opacity: none;
+	/*margin-right: 10px;*/
+}
+.banner div p{
+	margin-top: 10px;
+	opacity: none;
+	line-height: 20px;
+}
+/************** banner end ******************/
+/************** main start ******************/
+.main{
+	background: #EDF3FF;
+	width: 100%;
+	height: 23%;
+	text-align: center;
+}
+.main div{
+	width: 27%;
+	height: 80%;
+	background: #fff;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.main img{
+	width: 95%;
+	height: 50%;
+	margin-top: 8px;
+}
+.main p{
+	width: 90%;
+	font-size: 14px;
+	margin: 20px;
+}
+/************** main end ******************/
+/************** bloger start ******************/
+.bloger{
+	width: 100%;
+	height: 21%;
+	text-align: center;
+	margin-top: -50px;
+}
+.bloger img{
+	width: 13%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border: 2px solid #000;
+}
+.bloger h1{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.bloger p{
+	width: 50%;
+	height: 40%;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 23px;
+}
+/************** bloger end ******************/
+/************** footer start ******************/
+.footer{
+	background: #30322E;
+	width: 100%;
+	height: 17%;
+	text-align: center;
+	position: relative;
+}
+.nav{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #fff;
+}
+.nav li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.list-link div{
+	display: inline-block;
+	margin-left: 90px;
+	margin-top: 35px;
+}
+.list-link h1{
+	font-size: 16px;
+	color: #fff;
+}
+.list-link ul{
+	margin-top: 10px;
+}
+.list-link li{
+	margin-top: 5px;
+}
+.list-link .first-list{
+	margin-left: 0;
+}
+.copyright{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+}
+.copyright h1{
+	font-size: 16px;
+	color: #fff;
+}
+/************** footer end ******************/
