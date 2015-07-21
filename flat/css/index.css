@@ -92,7 +92,7 @@ nav ul li.logo{
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 160px;
+	top: 135px;
 }
 #banner .inner h1{
 	margin: 0;
@@ -110,12 +110,12 @@ button{
 	color: #fff;
 }
 #banner .inner .more{
-	margin-top: 240px;
+	margin-top: 180px;
 	color: #fff;
 }
 .sub-heading{
 	line-height: 30px;
-	margin: 30px 0;
+	margin: 100px 0;
 	font-size: 1.8rem;
 }
 .logo{
