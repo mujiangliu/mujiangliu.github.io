@@ -1,33 +1,39 @@
 var aImg = document.getElementById('section').getElementsByTagName('img');
 var aComputerImg = document.getElementById('computer').getElementsByTagName('img');
 var count = 0;
+var roles = 0;
 for(var i=0; i<aImg.length; i++){
 	aImg[i].index = i;
 	aImg[i].onclick = function(){
-		for(var i=0; i<aImg.length; i++){
+		if (roles < 1) {
+			for(var i=0; i<aImg.length; i++){
 			aImg[i].style.display = "none";
-		}
-		aImg[this.index].style.display = "inline-block";
-		var peopleNum = this.index;
+			}
+			aImg[this.index].style.display = "inline-block";
+			var peopleNum = this.index;
 
-		//电脑随机出招
-		var string = "0,1,2";
-		var array = string.split(",");
-		var computerNum = array[Math.round(Math.random()*(array.length - 1))];
-		show(computerNum);
-		if(peopleNum == computerNum){
-			result("平局");
-		}else if(peopleNum > computerNum && peopleNum - computerNum != 2){
-			result("YOU WIN!");
-			count++;
-		}else if(peopleNum - computerNum == -2){
-			result("YOU WIN!");
-			count++;
+			//电脑随机出招
+			var string = "0,1,2";
+			var array = string.split(",");
+			var computerNum = array[Math.round(Math.random()*(array.length - 1))];
+			show(computerNum);
+			if(peopleNum == computerNum){
+				result("平局");
+			}else if(peopleNum > computerNum && peopleNum - computerNum != 2){
+				result("YOU WIN!");
+				count++;
+			}else if(peopleNum - computerNum == -2){
+				result("YOU WIN!");
+				count++;
+			}else{
+				result("YOU LOSE!");
+			}
+			document.getElementById('count').innerHTML = count;
+			document.getElementById('count').style.color = "red";
+			roles += 1;
 		}else{
-			result("YOU LOSE!");
+			alert("请点击再来一局重新开始游戏！")
 		}
-		document.getElementById('count').innerHTML = count;
-		document.getElementById('count').style.color = "red";
 	};
 }
 
@@ -54,4 +60,5 @@ oAgain.onclick = function(){
 		aComputerImg[i].style.display = "none";
 	}
 	result("");
+	roles = 0;
 }

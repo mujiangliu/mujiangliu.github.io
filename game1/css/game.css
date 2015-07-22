@@ -19,8 +19,7 @@ body{
 	margin: 80px;
 }
 #container #content{
-	margin: 0;
-	display: inline-block;
+	/*margin: 0;*/
 }
 #section{
 	margin-top: 50px;
