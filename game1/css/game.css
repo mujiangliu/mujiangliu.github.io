@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #448ACF;
+	color: #fff;
+}
+#count{
+	font-size: 18px;
+}
+#container{
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+}
+#container p{
+	display: inline-block;
+	margin: 80px;
+}
+#container #content{
+	margin: 0;
+	display: inline-block;
+}
+#section{
+	margin-top: 50px;
+	text-align: center;
+	display: inline-block;
+}
+#section img{
+	border-radius: 50%;
+	cursor: pointer;
+}
+#computer{
+	display: inline-block;
+}
+.computer-img{
+	border-radius: 50%;
+	border: 2px solid #965EA9;
+	display: none;
+}
+#again{
+	border: 1px solid #ccc;
+	padding: 5px;
+	cursor: pointer;
+	clear: both;
+}

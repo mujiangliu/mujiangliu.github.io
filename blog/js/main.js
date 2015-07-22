@@ -53,18 +53,18 @@ $(function(){
 	});
 
 	//定时器
-	interval = setInterval(function(){
-		if(runPage.thisPage() > 1 && runPage.thisPage() < 5){
-			$(".goTop").show();
-		}else{
-			$(".goTop").hide();
-		};
-		var count = runPage.thisPage();
-		// alert($goNext.length);
-		if (count >= $goNext.length - 1) {
-			runPage.go(0);
-		}else{
-			runPage.go(runPage.thisPage() + 1);
-		};
-	},2000);
+	// interval = setInterval(function(){
+	// 	if(runPage.thisPage() > 1 && runPage.thisPage() < 5){
+	// 		$(".goTop").show();
+	// 	}else{
+	// 		$(".goTop").hide();
+	// 	};
+	// 	var count = runPage.thisPage();
+	// 	// alert($goNext.length);
+	// 	if (count >= $goNext.length - 1) {
+	// 		runPage.go(0);
+	// 	}else{
+	// 		runPage.go(runPage.thisPage() + 1);
+	// 	};
+	// },2000);
 });
