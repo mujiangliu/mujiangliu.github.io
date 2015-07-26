@@ -1,10 +1,41 @@
-*{
+blockquote, body, button, dd, dt, fieldset, form, 
+h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, 
+p, pre, td, textarea, th , ul, img{
 	margin: 0;
 	padding: 0;
 }
-header{
-	margin: 20px auto;
+ul{
+	list-style: none;
 }
-.img{
+body{
+	background: #000;
+}
+/*body{
+	background: rgba(0,0,0,0.2);
+	background: url(../images/banner.jpg) no-repeat;
+}
+header{
+	text-align: center;
+	height: 100%;
+	margin-top: 20px;
+	
+}*/
+/*.img{
+	border-radius: 50%;
 	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 3px 3px 3px #000;
+}*/
+li{
+	float: left;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.large{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
 }

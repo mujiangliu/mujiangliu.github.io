@@ -5,9 +5,10 @@
 	<meta name="keywords" content="移动主页" />
 	<meta name="description" content="这是灵魂dancing的个人主页，欢迎参观" />
 	<meta name="robots" content="index,follow" />
-	<meta http-equiv="refresh" content="10;url=" />
+	<!-- <meta http-equiv="refresh" content="10;url=" /> -->
 	<meta name="author" content="灵魂dancing" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--对于不同移动设备，分辨率物理尺寸不一样，会进行一些缩放，为了展示效果一样就要设置viewport，宽度是设备的宽度，1.0缩放 -->
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="apple-mobile-web-app-title" content="灵魂dancing" />
@@ -18,12 +19,20 @@
 
 	<title>test</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
-	<header>
+	<!-- <header>
 		<img class="img" src="images/IMG_0006.JPG">
 	</header>
 	<section></section>
-	<footer></footer>
+	<footer></footer> -->
+	<ul id="container" class="img-container">
+	</ul>
+	<div class="large" id="large_container" style="display: none;">
+		<img id="large_img">
+	</div>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
