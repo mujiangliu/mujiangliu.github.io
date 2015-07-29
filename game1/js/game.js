@@ -7,7 +7,7 @@ for(var i=0; i<aImg.length; i++){
 	aImg[i].onclick = function(){
 		if (roles < 1) {
 			for(var i=0; i<aImg.length; i++){
-			aImg[i].style.display = "none";
+				aImg[i].style.display = "none";
 			}
 			aImg[this.index].style.display = "inline-block";
 			var peopleNum = this.index;
