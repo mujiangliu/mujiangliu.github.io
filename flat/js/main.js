@@ -1,8 +1,8 @@
 $(function(){
 	setInterval(function(){
-		$(".more").animate({'margin-top': '200px'}, 500,function(){
+		$(".more").animate({'margin-top': '130px'}, 500,function(){
 			$(".more-up").fadeOut(500,function(){
-				$(".more").animate({'margin-top': '180px'},500,function(){
+				$(".more").animate({'margin-top': '110px'},500,function(){
 					$(".more-up").fadeIn(2000);
 				});
 			});

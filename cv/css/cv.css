@@ -12,6 +12,22 @@ li{
 .clearfix{
 	
 }
+a{
+	color: #475f85;
+	letter-spacing: .5px; 
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+.right a{
+	color: #000;
+	/*color: rgba(255,255,255,0.5);*/
+}
+.right a:hover{
+	/*color: #ccc;*/
+	color: #ccc;
+}
 /************ 我是华丽的分割线 O(∩_∩)O **************/
 .container{
 	width: 70%;
