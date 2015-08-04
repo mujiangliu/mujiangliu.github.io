@@ -100,6 +100,11 @@ nav
 	margin-left: 70%;
 	background: #fff;
 }
+.nav iframe{
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 90%;
+}
 
 /*************content end***************/
 /*************top start*************/
